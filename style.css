@@ -119,6 +119,7 @@ header .menu{
 @media(max-width:1000px){
     header{
         gap: 1rem;
+        flex-flow: wrap;  /*Wrap the header*/
     }
     .search-box button{
         position: absolute;
@@ -146,6 +147,7 @@ header .menu{
     }
   
 }
+
 button{
     font-size: 1rem;
     padding: 10px 12px;
@@ -517,6 +519,9 @@ a:hover {
     text-align: center;
 }
 
+.headc li{
+    list-style-type : none;
+}
 
   
   /* About-us */
@@ -801,4 +806,19 @@ a:hover {
   }
 
  
-      
+  #icon-bubble {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#icon-bubble img {
+    width: 50px; 
+}
+
+#icon-bubble h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    animation: colorChange 10s infinite;
+}

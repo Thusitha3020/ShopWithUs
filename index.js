@@ -1,11 +1,14 @@
-<script>
-    document.querySelectorAll('a[href^="#section1"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
+let bubbleOpen = false;
 
-            document.querySelector(this.getAttribute('href #section1')).scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
-</script>
+function toggleBubble() {
+    bubbleOpen = !bubbleOpen;
+
+    // Add logic to handle the bubble click event
+    if (bubbleOpen) {
+        // For example: openBubble();
+        console.log('Bubble clicked! Open your bubble content here.');
+    } else {
+        // For example: closeBubble();
+        console.log('Bubble closed!');
+    }
+}
