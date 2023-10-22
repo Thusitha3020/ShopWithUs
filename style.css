@@ -526,6 +526,12 @@ a:hover {
   
   /* About-us */
  
+  .about-head{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+    animation: colorChange 10s infinite;
+    text-align: center;
+  }
   .about-us {
     max-width: 800px;
     margin: 40px auto;
@@ -547,7 +553,7 @@ a:hover {
   
   .owner-name {
     margin-top: 10px;
-    color: #e8491d;
+    color: #ffffff;
   }
   
   .owner-motivation {
