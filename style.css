@@ -41,10 +41,7 @@ i{
 }
 
 header .logo{
-    flex: 1;
-    color:#fff;
-    margin-left: 50px;
-    font-size: 15px;
+  size-adjust: 10px;
 }
 
 header .search-box{
@@ -178,7 +175,7 @@ button{
 
 .description-banner {
     background:url(./images/banner.jpg) center/cover;
-    color: #fff; /* Set your text color */
+    color: #fff; 
     padding: 40px;
     text-align: center;
 }
@@ -247,7 +244,7 @@ button{
 }
 
 .banner-container .banner{
-    background:url(./images/Nendoroid-Figures.jpg) center/cover;
+    background:url(./images/signupbackground.jpg) center/cover;
     border-radius: 5px;
     margin:10px;
     display: flex;
